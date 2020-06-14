@@ -1,0 +1,2 @@
+Use this tool to calculate the cost of your meetings, taking each attendee's salary into account.
+The name comes from the business jargon ["boil the ocean"](https://www.urbandictionary.com/define.php?term=boil+the+ocean). Used in a sentence: "trying to accomplish anything productive in most meetings is like boiling the ocean."
