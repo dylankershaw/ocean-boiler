@@ -12,10 +12,21 @@
 </head>
 
 <body>
-  <input class="salary" type="number" />
-  <button onclick="startCounter()">start meeting</button>
-  <button onclick="stopCounter()">end meeting</button>
-  <div id="cost">0</div>
+  <div class="counter">$0</div>
+  <div class="counter-buttons">
+    <button class="counter-button" onclick="startCounter()">start</button>
+    <button class="counter-button" onclick="stopCounter()">stop</button>
+    <button class="counter-button" onclick="resetCounter()">reset</button>
+  </div>
+  <h3 class="salaries-header">salaries</h3>
+  <button class="salaries-button" onClick="toggleSalariesVisibility()">-</button>
+  <div class="salaries">
+    <div class="salary">
+      <input type="number" />
+      <button onClick="removeSalary()">x</button>
+    </div>
+    <button class="add-salary" onclick="addSalary()">+</button>
+  </div>
 </body>
 
 </html>

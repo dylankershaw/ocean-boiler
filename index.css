@@ -1,0 +1,46 @@
+body {
+  margin: 5rem auto 0;
+  max-width: 40rem;
+}
+
+.counter {
+  outline: 1px solid black;
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+.counter-buttons {
+  display: flex;
+}
+
+.counter-button {
+  flex: 1;
+}
+
+.salaries-header {
+  display: inline-block;
+}
+
+.salaries {
+  display: flex;
+  flex-wrap: wrap;
+  outline: 1px solid;
+  padding: 1rem;
+}
+
+.salaries--closed {
+  display: none;
+}
+
+.salary {
+  display: flex;
+  flex: 1;
+  margin: 1rem 4rem 1rem 0;
+  flex-grow: 0;
+}
+
+.add-salary {
+  height: fit-content;
+  margin: 1rem 0;
+  flex-grow: 0;
+}
