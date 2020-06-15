@@ -35,7 +35,7 @@ body {
 .salary {
   display: flex;
   flex: 1;
-  margin: 1rem 4rem 1rem 0;
+  margin: 1rem 1rem 1rem 0;
   flex-grow: 0;
 }
 
@@ -43,4 +43,8 @@ body {
   height: fit-content;
   margin: 1rem 0;
   flex-grow: 0;
+}
+
+.remove-salary {
+  margin-left: 0.25rem;
 }
